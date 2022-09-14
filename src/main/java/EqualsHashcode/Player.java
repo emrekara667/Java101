@@ -2,8 +2,25 @@ package EqualsHashcode;
 
 import java.util.Objects;
 
-public class Player implements Comparable<Player>{
+public class Player {
     private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     private int id;
 
     public Player(String name, int id) {
@@ -29,7 +46,7 @@ public class Player implements Comparable<Player>{
         return Objects.hash(name, id);
     }
 
-    @Override
+   /* @Override
     public int compareTo(Player player) {
         if(this.id < player.id)
             return  -1;
@@ -37,5 +54,5 @@ public class Player implements Comparable<Player>{
             return 1;
         else
             return 0;
-    }
+    }*/
 }

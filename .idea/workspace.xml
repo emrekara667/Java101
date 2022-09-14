@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dfc5377-125b-412d-ae42-b50f63b8996c" name="Changes" comment="Init project">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CompareableInterface/CollectionSortandComparableInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EqualsHashcode/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EqualsHashcode/Player.java" afterDir="false" />
+    <list default="true" id="7dfc5377-125b-412d-ae42-b50f63b8996c" name="Changes" comment="Comparable">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparatorInterface/BigToLittle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mutableimmutable/Period.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mutableimmutable/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CompareableInterface/CollectionSortandComparableInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CompareableInterface/CollectionSortandComparableInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EqualsHashcode/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EqualsHashcode/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,14 +40,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.CollectionSortandComparableInterface">
+}</component>
+  <component name="RunManager" selected="Application.main">
     <configuration name="CollectionSortandComparableInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CompareableInterface.CollectionSortandComparableInterface" />
       <module name="Java101" />
@@ -71,8 +74,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mutableimmutable.main" />
+      <module name="Java101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mutableimmutable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.CollectionSortandComparableInterface" />
         <item itemvalue="Application.Main" />
       </list>
@@ -86,7 +103,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659273617707</updated>
-      <workItem from="1659273619694" duration="4917000" />
+      <workItem from="1659273619694" duration="4984000" />
+      <workItem from="1659384610933" duration="4296000" />
+      <workItem from="1659507924577" duration="58000" />
+      <workItem from="1663182358793" duration="2278000" />
     </task>
     <task id="LOCAL-00001" summary="Init project">
       <created>1659273723643</created>
@@ -95,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659273723643</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Comparable">
+      <created>1659305080822</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659305080822</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +141,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init project" />
+    <MESSAGE value="Comparable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comparable" />
   </component>
 </project>
